@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <title>Calendario</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <!-- TAMAÑO DE CALENDARIO ESPECIFICO -->
+    <link rel="stylesheet" type="text/css" href="css/datepicker.css">
+
+    <!-- OBTENER NUMEROS DE CALENDARIO DENTRO DE DIV OCULTO -->
+    <link rel="stylesheet" type="text/css" href="css/dropdown.css">
+
+    <!-- LETRA DE CALENDARIO Y DSEÑO -->
+    <link rel="stylesheet" type="text/css" href="css/color-schemes.css">
+
+    <!-- COLOR DE SELECCIÓN DE DÍA  -->
+    <link rel="stylesheet" type="text/css" href="css/components.css">
+
+    <!-- DISEÑO RESPONSIVO -->
+    <link rel="stylesheet" type="text/css" href="css/admin-responsive.css">
+
+    <!--    LIBRERIA GENERAL DE JQUEY   -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body> 
+    <!-- CAMBIO DE LIBRERIA MODIFICADA -- CAMBIAR PARAMETROS A ESPAÑOL -->
+    <script type="text/javascript" src="js/datepickerModify.js"></script> 
+
+    <script type="text/javascript">
+        /* ASIGANCIÓN DE FORMATO FECHA PARA DATEPICKER BOOTSTRAP */
+
+        $(function()
+        {
+            "use strict";
+            $('.bootstrap-datepicker').bsdatepicker
+            ({
+                format: 'mm-dd-yyyy'
+            });
+        });
+    </script>
+
+    <input type="text" class="bootstrap-datepicker form-control" value="02/16/12" data-date-format="mm/dd/yy">
+
+</body>
+</html>

@@ -13,3 +13,9 @@ Ejemplos Sencillos sobre uso de JS.
 
 ![Recorta 001](https://user-images.githubusercontent.com/34284173/73703472-95888b00-46b5-11ea-9bab-c04f83b267e7.png)
 
+
+- [ ] **CALENDARIO MODERNO:** Calendario Moderno Desarrollado con librerias Ajax y Function Constructor
+
+ El calendario incluye funciones constructoras (function(e)) implementadas mediante el método Ajax, dado que si se requiere otro archivo JQuery con funciones constructoras se es necesario modificarlo, ya que solo se emplea una function constructora.
+VISTA PREVIA DE PROYECTO
+CalendarModern
