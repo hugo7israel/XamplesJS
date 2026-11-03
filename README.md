@@ -19,3 +19,10 @@ Ejemplos Sencillos sobre uso de JS.
  El calendario incluye funciones constructoras (function(e)) implementadas mediante el método Ajax, dado que si se requiere otro archivo JQuery con funciones constructoras se es necesario modificarlo, ya que solo se emplea una function constructora.
 VISTA PREVIA DE PROYECTO
 CalendarModern
+
+
+- [ ] **UPLOAD FILE AJAX:** Subir archivo mediante PHP Y JS con Ajax de manera local (Se puede agregar FTP como modificació).
+
+ El archivo puede modificarse para poder implementar FTP.
+VISTA PREVIA DEL PROYECTO
+UploadAjax
